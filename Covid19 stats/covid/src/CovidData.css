@@ -1,0 +1,52 @@
+.covidData {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.covidData h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.covidData__input {
+  margin-bottom: 20px;
+}
+
+.covidData__input form {
+  display: flex;
+  justify-content: center;
+}
+
+.covidData__input input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.covidData__input button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.covidData__country__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.covidData__country__info p {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+}
